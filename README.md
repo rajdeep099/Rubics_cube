@@ -12,5 +12,5 @@ A 2-Dimensional representation of an actual 3 x 3 Rubics cube.
   
 ## Images
   ### Graphical User Interface (GUI)
-  ![GAME INTERFACE](https://raw.githubusercontent.com/rajdeep099/Rubics_cube/blob/main/normal.png)
-  ![GAME INTERFACE](https://raw.githubusercontent.com/rajdeep099/Rubics_cube/master/scrambled.png)
+  ![GAME INTERFACE](https://raw.githubusercontent.com/rajdeep099/Rubics_cube/main/normal.png)
+  ![GAME INTERFACE](https://raw.githubusercontent.com/rajdeep099/Rubics_cube/main/scrambled.png)
