@@ -2,6 +2,7 @@ from tkinter import *
 import random
 
 
+# defining movements
 def La():
     global cube, cm1
     cm1 = [[[cube[3][0][0], cube[0][0][1], cube[0][0][2]], [cube[3][1][0], cube[0][1][1], cube[0][1][2]],
@@ -329,6 +330,7 @@ def Fc():
     drawCube()
 
 
+# defining cube movements
 def cubeRotate_X_left():
     Ua()
     Dc()
@@ -606,6 +608,7 @@ def Buttons():
     scramble.place(x=770, y=505)
 
 
+# cube orientation
 def cube_orientation():
     canvas.create_line(465, 135, 535, 65, width=1.5, fill="yellow")
     canvas.create_line(500, 50, 500, 150, width=1.5, fill="blue")
@@ -648,6 +651,7 @@ def cube_orientation():
     zLeft_rotation.place(x=434, y=138)
 
 
+# main
 if __name__ == '__main__':
     a = 600
     b = 1000
